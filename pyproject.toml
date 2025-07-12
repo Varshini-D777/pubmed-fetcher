@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pubmed-fetcher"
+version = "0.1.0"
+description = "Fetch PubMed papers with non-academic authors"
+authors = ["Varshini D <varshinid.tech@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.13"
+biopython = "^1.83"
+pandas = "^2.2.3"
+
+[tool.poetry.scripts]
+get-papers-list = "scripts.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
