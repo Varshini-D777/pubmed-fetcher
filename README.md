@@ -11,5 +11,6 @@ A Python command-line tool to fetch research papers from PubMed with at least on
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <your-github-repo-url>
+   git clone https://github.com/Varshini-D777/pubmed-fetcher.git cd pubmed-fetcher
+
    cd pubmed-fetcher
